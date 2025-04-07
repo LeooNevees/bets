@@ -53,11 +53,11 @@ cd path/to/install
 docker-compose up
 ```
 
-This will start the cli-server on port `9501`, and bind it to all network interfaces. You can then visit the site at `http://localhost:9501/` which will bring up Hyperf default home page.
-
-## Hints
-
-- A nice tip is to rename `hyperf-skeleton` of files like `composer.json` and `docker-compose.yml` to your actual project name.
-- Take a look at `config/routes.php` and `app/Controller/IndexController.php` to see an example of a HTTP entrypoint.
-
-**Remember:** you can always replace the contents of this README.md file to something that fits your project description.
+Tecnologias utilizadas:
+PHP8.1;
+HyperF;
+Swoole;
+Docker;
+Docker-compose;
+PhpUnit;
+Mockoon

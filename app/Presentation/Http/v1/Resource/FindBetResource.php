@@ -7,14 +7,14 @@ use App\Domain\Entity\Document;
 
 class FindBetResource implements ResponseInterface
 {
-    public function __construct(private readonly ?Document $document)
+    public function __construct(private readonly Document $document)
     {
     }
 
     public function jsonSerialize(): array
     {
         return [
-            'data' => $this->document?->toArray()
+            'data' => $this->document->toArray()
         ];
     }
 

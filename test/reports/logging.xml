@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/opt/www/phpunit.xml.dist" tests="4" assertions="13" errors="0" failures="0" skipped="0" time="2.431091">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.088341">
+      <testsuite name="HyperfTest\Unit\Application\Find\FindBetQueryTest" file="/opt/www/test/Unit/Application/Find/FindBetQueryTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.088341">
+        <testcase name="testMake" file="/opt/www/test/Unit/Application/Find/FindBetQueryTest.php" line="13" class="HyperfTest\Unit\Application\Find\FindBetQueryTest" classname="HyperfTest.Unit.Application.Find.FindBetQueryTest" assertions="1" time="0.088341"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Integration" tests="3" assertions="12" errors="0" failures="0" skipped="0" time="2.342750">
+      <testsuite name="HyperfTest\Integration\v1\BetControllerTest" file="/opt/www/test/Integration/v1/BetControllerTest.php" tests="3" assertions="12" errors="0" failures="0" skipped="0" time="2.342750">
+        <testcase name="testFindSuccess" file="/opt/www/test/Integration/v1/BetControllerTest.php" line="17" class="HyperfTest\Integration\v1\BetControllerTest" classname="HyperfTest.Integration.v1.BetControllerTest" assertions="3" time="1.285362"/>
+        <testcase name="testFindNotFound" file="/opt/www/test/Integration/v1/BetControllerTest.php" line="27" class="HyperfTest\Integration\v1\BetControllerTest" classname="HyperfTest.Integration.v1.BetControllerTest" assertions="3" time="1.035172"/>
+        <testcase name="testFindInvalidCnpj" file="/opt/www/test/Integration/v1/BetControllerTest.php" line="37" class="HyperfTest\Integration\v1\BetControllerTest" classname="HyperfTest.Integration.v1.BetControllerTest" assertions="6" time="0.022216"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
